@@ -1,0 +1,27 @@
+.blogs{
+    /* padding-left: 30px; */
+}
+.main {
+    min-height: 50vh;
+    padding: 1rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blogitem{
+    /* padding-left: 60px; */
+  }
+  .blogitemh3{
+    cursor: pointer;
+  }
+  .blogItemp{
+    max-width: 50vw;
+  }
+  
+@media only screen and (max-width:900px) {
+  .blogItemp{
+    max-width: 65vw;
+  }
+}

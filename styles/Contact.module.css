@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container h1{
+    text-align: center;
+}
+.formlabel{
+    font-weight: bold;
+}
+.formBox{
+    font-size: 20px;
+    margin: 0px auto;
+    width: 250px;
+    min-width: 200px;
+}
+.formtext{
+    font-size: 10px;
+}
+.mb_3{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+.formlabel{
+    margin-top: 30px;
+}

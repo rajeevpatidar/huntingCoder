@@ -1,0 +1,23 @@
+.container{
+    max-width: 60vw;
+    margin: 0px auto;
+}
+.headone{
+text-align: center;
+}
+.container h3{
+    font-size: 24px;
+}
+@media only screen and (max-width:600px) {
+    .container{
+        max-width: 80vw;
+        font-size: 20px;
+    }
+    .headone{
+        font-size: 25px;
+    }
+    .container h3{
+        font-size: 28px;
+        overflow: hidden;
+    }
+}
